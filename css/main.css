@@ -1,0 +1,33 @@
+body 
+{
+    background-color: grey
+}
+h2, p {
+    color: purple
+}
+/*all paragraphs inside the article*/
+article > p {
+    background-color: whitesmoke;
+}
+/*all siblings*/
+div ~ p {
+    background-color: pink;
+}
+/*first sibling after*/ 
+div + p {
+    background-color: lightblue;
+}
+a{
+    color: lightblue;
+}
+footer {
+background-color: rgb(156, 95, 105)
+}
+footer a {
+    color: lightcyan
+}
+
+.active {
+    color: lightseagreen
+}
+
